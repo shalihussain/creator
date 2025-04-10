@@ -69,7 +69,7 @@ const ShaliPortfolio = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-black px-6 py-4 flex justify-between items-center border-b border-gray-800">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-40 backdrop-blur-md px-6 py-4 flex justify-between items-center border-b border-gray-800">
         <div className="text-xl font-bold font-mono bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500 text-transparent bg-clip-text">{typedText}<span className="animate-pulse text-white">|</span></div>
         <div className="space-x-6 hidden md:flex">
           <a href="#home" className="text-white hover:text-orange-400 transition">Home</a>
@@ -130,7 +130,7 @@ const ShaliPortfolio = () => {
           className="relative min-h-screen flex items-center justify-center text-center px-4 pt-24 bg-cover bg-center"
           style={{ backgroundImage: "url('https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/476152039_122180190290262087_4780137075399737870_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=z5WihLhMy3IQ7kNvwFjPJMQ&_nc_oc=Adkh5mYHwHgGhGcM1wA68Ze4Zd7x7Q39KCM62fw1-4UbkabGFNRgw78mZZ9UElHxBD4&_nc_zt=23&_nc_ht=scontent-maa2-1.xx&_nc_gid=6JaDtpjTbI8KCxqkQv_r3w&oh=00_AfHYD5ubXlMCpJ0ctffW7ZngXIk8qqOoiP-WokQ2N6W_oA&oe=67FD37BB')" }}
         >
-          <div className="absolute inset-0 bg-black opacity-10 z-0"></div>
+          <div className="absolute inset-0 bg-black opacity-20 z-0"></div>
           <div className="relative z-10 flex flex-col items-center">
             <h1 className="text-5xl font-bold font-mono mb-4 bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-500 text-transparent bg-clip-text">
               {typedText}<span className="animate-pulse text-white">|</span>
